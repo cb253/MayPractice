@@ -1,9 +1,24 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header {
-    text-align:center   
+.ctex {
+    text-align: center;
+    background-color: rgb(241, 241, 241);
 }
-ul {
+ul.solid {
+    border-style:solid;
     list-style-type: none;
+}
+body {
+    background-color: rgb(206, 227, 245);
+}
+footer {
+    position: absolute ;
+    bottom: 0%;
+    width: 105%;
+    height: 50px;
+    background: wheat;
+}   
+header {
+
 }
